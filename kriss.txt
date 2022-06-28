@@ -1,3 +1,0 @@
-sapa 123
-sapita123
-sass

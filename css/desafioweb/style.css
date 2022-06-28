@@ -1,0 +1,170 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    font-size: 30px;   
+    min-height: 50%;
+}
+body{
+    width: 100%;
+    min-height: 50%;
+
+}
+
+
+.parra{
+    /*background-color: rgb(56, 56, 56);
+    padding-bottom: 41%;
+    color: aliceblue;
+    display: inline-block;*/
+    background-color: rgb(156, 156, 156);
+   
+} 
+header{
+    background-color: black;
+    /*padding-left: 1500px;*/
+    height: 100px;
+
+}
+.logo{
+    width: 80px;
+    padding: 10px;
+    
+
+   /* position: absolute; left: 40px; top: 8px; */
+    }
+/*
+.kanotitulo a{
+    text-decoration: none;
+    padding-top: 200px;
+    background-color: black;
+    position: relative; left: 150px; bottom: 50px;
+    
+}*/
+
+.kanotitulo a:hover{
+    color: white;
+}
+
+
+.listakano {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+   /* position: relative; top: 25px; right: 200px;   esta es la posicion de la cabeza al verga
+    padding-left: 30px;*/
+    list-style: none;
+    display: flex;
+    /*flex-direction: row-reverse;*/
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.listas a{
+    text-decoration: none;
+    color: rgb(184, 184, 184);
+}
+
+.listas a:hover{
+    color: aliceblue;
+    
+}
+
+
+.listas{
+    padding: 25px;
+}
+/* aqui estan la lista de iamages izquierda*/
+.parra
+{
+    padding-right:100px;
+}
+section{
+    background-color: aliceblue;
+    position: relative; left: 0px;
+    width: 400px;
+    height: 790px; 
+}
+.primera-division{
+    background-color: black;
+    color: aliceblue;
+    height: 150px;
+    width: 200px;
+    text-align: center;
+    border-radius: 20px;
+    
+    
+}
+.segunda-division{
+    background-color: black;
+    color: aliceblue;
+    height: 150px; 
+    width: 200px;
+    text-align: center;
+    position: relative; top: 80px;
+    border-radius: 20px;
+}
+.tercera-division{
+    background-color: black;
+    color: aliceblue;
+    height: 150px;
+    width: 200px;
+    text-align: center;
+    position: relative; top: 160px;
+    border-radius: 20px;
+}
+.parrafou{
+    padding: 90px;
+    /*text-align: center;*/
+}
+.centrar{
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.centrar2 {
+    text-align: center;
+    border-radius: 20px;
+    position: relative; top: 60px;
+
+}
+
+.parrafou img{
+    opacity: 1.0;
+}
+.parrafou img:hover{
+    opacity: 0.5;
+}
+
+.punti{
+    width: 200px;
+    height: 150px;
+    position: absolute; left: 90px; top: 90px;
+    border-radius: 20px;
+}
+.tradicional{
+    width: 200px;
+    height: 150px;
+    position: absolute; left: 0px;
+    border-radius: 20px;
+}
+.realismo{
+   width: 200px;
+    height: 150px;
+    position: absolute; left: 0px;
+    border-radius: 20px;
+    }
+
+footer{
+    background-color: black;
+    padding: 0px;
+    padding-top: 25px;
+    padding-bottom: 25px;   
+}
+
+.parrafofooter{
+    color: aliceblue;
+    text-align: center;
+}
+

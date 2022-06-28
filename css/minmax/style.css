@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0PX;
+}
+
+main{
+   width: 100vw;
+    background-color: blueviolet;
+    
+}
+section{
+    width: 95%;
+    min-width: 300PX;
+    max-width: 100% ;
+    min-height: 600px;
+    margin: 0px auto;
+    background-color: black;
+} 
+p{
+    color: white;
+}
