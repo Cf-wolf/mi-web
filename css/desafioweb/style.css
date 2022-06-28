@@ -4,13 +4,12 @@
     margin: 0px;
 }
 html{
-    font-size: 30px;   
-    min-height: 50%;
+    height: 100%; 
 }
 body{
-    width: 100%;
-    min-height: 50%;
-
+    /* width: 100vw; */
+    min-height: 100%;
+    background-color: red;
 }
 
 
@@ -20,6 +19,7 @@ body{
     color: aliceblue;
     display: inline-block;*/
     background-color: rgb(156, 156, 156);
+    min-height: 100%;
    
 } 
 header{
@@ -158,9 +158,9 @@ section{
 
 footer{
     background-color: black;
-    padding: 0px;
-    padding-top: 25px;
-    padding-bottom: 25px;   
+    padding: 50px 10px;
+    /* height: 80px; */
+    /* padding-bottom: 0px; */
 }
 
 .parrafofooter{
